@@ -1,0 +1,41 @@
+.people-say {
+	width: 100%;
+	background-color:#ddd;
+	border-top: 1px solid transparent;
+}
+
+.people-say__inner {
+	height: 85vh;
+}
+
+.people-say__header {
+	margin-top: 70px;
+	/* margin-bottom: 50px; */
+}
+
+.feedback__items {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	/* border: 2px solid rgb(8, 28, 36); */
+	margin-top: 50px;
+}
+
+.feedback {
+	flex: 0 0 49%;
+	margin-bottom: 50px;
+	padding: 1rem;
+	border: 2px solid rgb(8, 28, 36);
+	min-height: 200px;
+	/* background-color: #ddd; */
+}
+
+.feedback__header {
+	/* text-transform: uppercase; */
+	position: relative;
+}
+
+.feedback__text {
+	margin-top: 1rem;
+	line-height: 1.5rem;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>the Feedbacks</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./styles/header-footer.css">
+	<link rel="stylesheet" href="./styles/index.css">
+	<link rel="stylesheet" href="./styles/editor.css">
+</head>
+<body>
+	<header class="header">
+		<div class="wrapper">
+			<div class="header__inner">
+				<a href="" class="logo"><span class="brand-color">the</span>Feedbacks<span class="brand-color">.<sup> admin</sup></span></a>
+				<nav class="nav">
+					<ul class="nav__items">
+						<li class="nav__item">
+							<a href="index.html" class="nav__link"> home </a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<section class="editor">
+		<!-- <div class="wrapper"> -->
+			<div class="editor__inner">
+				<div class="feedbacks__box box">
+					<ul class="feedback__items" id="feedbackItems"> </ul>
+				</div>
+				<div class="form__box box">
+					<form action="#" class="form" id="form">
+						<div class="input__item">
+							<input type="number" id="id" name="id">
+							<input type="text" id="name" name="name">
+						</div>
+						<div class="input__item">
+							<textarea id="feedback" name="feedback"></textarea>
+						</div>
+						<div class="buttons">
+							<button class="btn"	id="send" type="submit">Update</button>
+							<button class="btn"	id="reset" type="reset">Reset</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		<!-- </div> -->
+	</section>
+	<footer class="footer">
+		<div class="wrapper">
+			<div class="footer__inner">
+				Approximately All Rights Reserved. Designed and developed by peelbrown.xyz <br /> &copy; 2020 
+			</div>
+		</div>
+	</footer>
+	<script type="module" src="./scripts/editor.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+sup {
+	font-size: 0.75rem;
+}
+
+.editor {
+	width: 100%;
+	background-color:#ddd;
+	border-top: 1px solid transparent;
+}
+
+.editor__inner {
+	min-height: 86vh;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 50px;
+	padding: 0 50px;
+
+}
+
+.box {
+	flex: 0 0 49%;
+	margin-bottom: 50px;
+	padding: 1rem;
+	border: 2px solid rgb(8, 28, 36);
+	min-height: 200px;
+}
+
+.feedback {
+	flex: 0 0 100%;
+	min-height: 150px;
+}
+
+.edit {
+	width: 25px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.edit:active {
+	background-color: rgb(255, 166, 0);
+}
+
+#form {
+	width: 80%;
+	margin-top: 55px;
+	margin: 50px auto;
+
+}
+
+.input__item {
+	width: 100%;
+	margin-bottom: 25px ;
+}
+
+input {
+	height: 50px;
+	border: none;
+	padding: 15px;
+	font-size: 1.2rem;
+	border: 1px solid rgb(8, 28, 36);
+}
+
+#id {
+	width: 20%;
+}
+
+#name {
+	width: 79%;
+}
+
+#feedback {
+	border: none;
+	width: 100%;
+	min-height: 300px;
+	font-family: inherit;
+	padding: 15px;
+	font-size: 1.2rem;
+	border: 1px solid rgb(8, 28, 36);
+}
+
+.btn {
+	flex: 0 0 50%;
+	height: 50px;
+	border: none;
+	background-color: rgb(8, 28, 36);
+	color: #ddd;
+	font-size: 1.2rem;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+.buttons {
+	display: flex;
+}
